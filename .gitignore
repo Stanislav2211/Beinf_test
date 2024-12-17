@@ -1,0 +1,48 @@
+# Python
+venv/
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+*.sqlite3
+*.log
+*.pot
+*.mo
+
+# Celery
+celerybeat-schedule
+
+# AWS
+*.pem
+*.key
+.env
+*.aws
+
+# Docker
+*.swp
+docker-compose.override.yml
+localstack/data/
+localstack/temp/
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Logs
+logs/
+*.log
+*.out
+*.err
+
+# IDEs
+.idea/
+.vscode/
+*.iml
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
